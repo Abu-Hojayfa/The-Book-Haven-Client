@@ -1,0 +1,146 @@
+.adminBody{
+  width: 76%;
+  margin: auto;
+  display: flex;
+}
+.controlAdmin{
+  width: 300px;
+  background-color: #4e2cd6;
+  border-radius: 15px;
+}
+.controlAdmin a{
+  text-decoration: none;
+}
+.controlAdmin h1{
+  color: #fff;
+  font-family: cursive;
+  text-align: center;
+  padding-top: 30px;
+}
+.controlAdmin div{
+  display: flex;
+  font-size: 20px;
+  color: #fff;
+  margin-left: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.controlAdmin div img{
+  width: 35px;
+  height: 35px;
+}
+.controlAdmin div p{
+  padding-left: 10px;
+}
+.allBooksInfo h1{
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: sans-serif;
+}
+.tableHeader{
+  border: 1px solid transparent;
+  background-color: rgba(177, 174, 174, 0.2);
+  border-radius: 35px;
+}
+
+.tableImg img{
+  width: 40px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.mng-book{
+  font-size: 22px;
+  margin: 0 100px;
+}
+.addbook h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.fileUpload {
+	background: rgba(78, 44, 214,0.3);
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	color: #4E2CD6;
+	font-size: 22px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+  padding: 8px 20px;
+  border: 1px solid #4E2CD6;
+  cursor: pointer;
+  display: flex;
+  width: 220px;
+}
+.fileUpload img{
+  width: 40px;
+}
+.fileUpload:hover, .fileUpload:active, .fileUpload:focus {
+  cursor: pointer;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: 148px;
+    height: 46px;
+  cursor: pointer;
+}
+
+input[type="file"] {
+    position: fixed;
+    right: 100%;
+    bottom: 100%;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.grp1, .grp2{
+  display: flex;
+}
+.inputGrp{
+  margin-left: 50px ;
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px grey;
+  border: 1px solid black
+}
+.inputGrp p{
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.inputGrp input[type='text']{
+  width: 450px;
+  padding: 8px 20px;
+  font-size: 20px;
+  border: 1px solid #4E2CD6;
+  border-radius:12px;
+  margin: 10px 50px 30px 0;
+}
+.inputGrp input[type='text']:hover ,
+.inputGrp input[type='text']:focus,
+.inputGrp input[type='text']:active{
+  border: 1px solid #4E2CD6;
+}
+.addABook{
+  width: 300px;
+  padding: 10px 60px;
+  margin-left: 350px;
+  margin-top: 50px;
+  border: 1px solid transparent;
+  background-color: #4E2CD6;
+  font-size: 20px;
+  color: #FFF;
+  border-radius: 15px;
+}

@@ -1,0 +1,106 @@
+.form-body{
+  width: 80%;
+  margin: auto;
+}
+.main-form{
+  width: 50%;
+  margin: auto;
+  border: 1px solid grey;
+  border-radius: 15px;
+  padding: 30px;
+  padding-left: 100px;
+}
+.main-form h2{
+  padding-bottom: 30px;
+}
+.main-form .text{
+  border: none;
+  font-size: 20px;
+  margin-bottom: 40px;
+  padding: 10px;
+  color: black;
+  width: 80%;
+  border-bottom: 1px solid grey;
+}
+.main-form .chkbox{
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.chkbox a{
+  margin-left: 210px ;
+  color: #6946F4;
+}
+.main-form button{
+  width: 80%;
+  background-color: #6946F4;
+  border: 1px solid transparent;
+  padding: 10px 0;
+  color: white;
+  font-size: 22px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.main-form p{
+  text-align: center;
+  margin-right: 100px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.main-form p span{
+  padding-left: 10px;
+  text-decoration: underline;
+  color: #6946F4;
+  cursor: pointer;
+}
+.main-form .text:focus {
+  border: none;
+  border-bottom: 1px solid grey;
+}
+.spanStyle{
+  display: flex;
+}
+.autoLogin{
+  margin-top: 40px !important;
+  width: 65%;
+  margin: auto;
+}
+.autoLogin .spanStyle{  
+  width: 50%;
+  margin: auto ;
+}
+.autoLogin .spanStyle p{
+  font-size: 25px;
+  font-weight: 600;
+  transform: translateY(-20px);
+  padding: 0 10px;
+}
+.autoLogin .spanStyle span{
+    display:block;
+    width: 100%;
+    border-top: 2px solid grey;
+}
+.oneClick{
+  width: 55%;
+  margin: auto;
+}
+.oneClick .fb ,
+.oneClick .google {
+  border: 1px solid grey;
+  border-radius: 55px;
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+.oneClick .fb img,
+.oneClick .google img{
+  width: 45px;
+}
+
+.oneClick .fb p,
+.oneClick .google p{
+  margin: auto;
+  font-weight: 600;
+  font-size: 20px;
+}

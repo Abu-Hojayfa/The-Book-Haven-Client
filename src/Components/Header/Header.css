@@ -1,0 +1,198 @@
+.body-header {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  color: #2c273f !important;
+  margin-top: 10px;
+}
+.img-bg-top{
+  width: 10%;
+  margin: auto;
+  transform: translateY(-80px);
+}
+.img-bg-top img{
+  height: 150px;
+}
+
+.navBar {
+  
+  width: 80%;
+  margin: auto !important;
+  margin-top: 20px !important;
+  transform: translateY(-150px)
+}
+
+
+/* header */
+
+.header {
+  width: 100%;
+  z-index: 3;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+
+}
+
+.header li a {
+  font-size: 20px;
+  display: block;
+  padding: 20px 20px;
+  border-right: 1px solid #d3cae6;
+  text-decoration: none;
+  font-weight: 500;
+  color: #2c273f !important;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  background-color: #f4f4f4;
+}
+
+.header .logo {
+  display: block;
+  float: left;
+}
+
+/* menu */
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+.menu li button{
+  margin-top: 10px;
+  margin-left: 10px !important;
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #7657f0;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.menu li button:hover{
+  background-color: #6946F4;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 3px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 20px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 360px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+.logo img{
+  width: 200px ;
+  transform: translateY(-15px);
+}
+/* 48em = 768px */
+
+@media (min-width: 65em){
+  .header{
+  position: fixed;
+  }
+}
+
+@media (min-width: 65em) {
+
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+@media (max-width: 65em){
+  .logo img{
+    width: 150px ;
+  }
+}
+
+.activeIcon{
+  display: flex;
+  cursor: pointer;
+}
+.activeIcon img{
+  width: 40px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.activeIcon p {
+  font-size: 20px;
+  margin-top: 15px;
+  color: #000000;
+}
