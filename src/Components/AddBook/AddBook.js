@@ -30,7 +30,7 @@ const AddBook = () => {
   };
 
   const addABook = () => {
-    fetch('http://localhost:5000/addnewbook', {
+    fetch('https://the-book-haven.herokuapp.com/addnewbook', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
